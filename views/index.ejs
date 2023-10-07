@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joke App</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <h1>😂😂Joke of the day😂😂</h1>
+    <h2>Our Goal is to make your day better</h2>
+    <div class="container">
+        <form method="post">
+            <select name="joke-category" id="category">
+                <option value="">Choose a category</option>
+                <option value="Any">Any</option>
+                <option value="Misc">Misc</option>
+                <option value="Programming">Programming</option>
+                <option value="Dark">Dark</option>
+                <option value="Pun">Pun</option>
+                <!-- <option value="Spooky">Spooky</option> -->
+                <option value="Christmas">Christmas</option>
+            </select>
+            <input type="submit" value="Go" formaction="/" >
+        </form>
+        <%if(locals.joke) {%>
+            <h3><%=joke%></h3>
+        <%}%>
+    </div>
+</body>
+</html>

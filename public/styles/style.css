@@ -1,0 +1,47 @@
+body{
+    text-align: center;
+    background-color: rgb(28, 28, 77);
+}
+
+h1 {
+    font-size: 4rem;
+    color: aliceblue;
+    margin: 10px auto;
+}
+h2 {
+    font-size: 2rem;
+    color: aliceblue;
+    margin: 10px auto;
+}
+select {
+    width: 35vw;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    /* padding: -3px; */
+    margin: 30px auto;
+}
+input[type="submit"] {
+    font-size: 20px;
+    padding: 13px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    margin: auto 10px;
+}
+.container {
+    background-color: #3a3951;
+    width: 53%;
+    /* display: flex; */
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 100px;
+}
+h3 {
+    padding-bottom: 30px;
+    font-size: 1.5rem;
+    color: #1bfdff;
+}
